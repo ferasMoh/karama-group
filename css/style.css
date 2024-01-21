@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,
+.last-news,
+.last-news-text,
+.last-news-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(233, 227, 217);
+}
+
+.last-news {
+    flex-direction: column;
+    padding : 20px;
+    background-color: red;
+}
+
+.last-news-text {
+    justify-content: flex-end;
+}
+
+.last-news-images .image{
+    height: 100%;
+    margin : 10px;
+}
